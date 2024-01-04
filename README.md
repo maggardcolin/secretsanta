@@ -1,5 +1,5 @@
 # secretsanta
 The goal for this app was to create an app that would match each name with a different name, while avoiding someone's name being matched to themselves (for a secret santa gift exchange). I implemented this using a hashmap class that I developed in my CS400 class in Fall 2023, and created JUnit tests that made sure that the output was as expected. This project utilized the programming concepts that I was learning in my class at the time, including hashmaps, circular indices, and frontend/backend development.
 
-How it works
+*How it works*
 The app prompts the user for how many people are participating in the secret santa gift exchange, then for the names of each of the users. It then sequentially assigns each user a different name, and restarts the entire process if anyone's name is matched to themselves. I stored each name pair in a hashmap and checked to see if the name pair existed already to determine if the process should be run again. I have a demonstration on what potential output may look like below, and also file output options in the code so that the names are not revealed.
