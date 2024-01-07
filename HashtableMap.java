@@ -1,15 +1,5 @@
-// --== CS400 File Header Information ==--
-// Name: Colin Maggard
-// Email: cmaggard@wisc.edu
-// Group and Team: G30
-// Group TA: Connor Bailey
-// Lecturer: Florian Heimerl
-// Notes to Grader: <optional extra notes>
-
 import java.util.NoSuchElementException;
 import java.util.LinkedList;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Assertions;
 
 public class HashtableMap<KeyType, ValueType> implements MapADT<KeyType, ValueType> {
 
@@ -33,8 +23,6 @@ public class HashtableMap<KeyType, ValueType> implements MapADT<KeyType, ValueTy
     table = (LinkedList<Pair>[]) new LinkedList[capacity];
     this.size = 0;
   }
-
-  // with default capacity = 32
   @SuppressWarnings("unchecked")
   public HashtableMap() {
     table = (LinkedList<Pair>[]) new LinkedList[32];
